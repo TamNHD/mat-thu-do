@@ -82,9 +82,9 @@ body.danger .clock { background: var(--alarm); color: #fff; animation: tick 1s i
 .tools { display: flex; gap: 6px; flex-wrap: wrap; }
 .tool { background: transparent; border: 2px solid #f8f5ec66; border-radius: 0; padding: 7px 12px; font-family: var(--label); font-weight: 500; font-size: 14px; letter-spacing: .08em; text-transform: uppercase; color: var(--sheet); }
 .tool:hover { background: var(--sheet); color: var(--ink); border-color: var(--sheet); }
-.tool.gh { display: inline-flex; align-items: center; padding: 6px 9px; text-decoration: none; }
+.tool.gh { display: inline-flex; align-items: center; padding: 6px 9px; text-decoration: none; opacity: .4; transition: opacity .2s, background .2s, color .2s; }
 .tool.gh svg { width: 18px; height: 18px; fill: currentColor; display: block; }
-.tool.gh:hover { background: var(--sheet); color: var(--ink); }
+.tool.gh:hover, .tool.gh:focus-visible { opacity: 1; background: var(--sheet); color: var(--ink); }
 .tool kbd { font-family: var(--mono); font-size: 11px; opacity: .6; margin-left: 4px; }
 .penfx { position: absolute; right: 0; top: 100%; font-family: var(--display); font-size: 32px; color: var(--alarm); pointer-events: none; animation: rise 1.4s forwards; white-space: nowrap; text-shadow: 2px 2px 0 var(--ink); }
 @keyframes rise { from { transform: translateY(0); opacity: 1 } to { transform: translateY(30px); opacity: 0 } }
