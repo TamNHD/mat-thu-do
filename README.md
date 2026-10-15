@@ -110,4 +110,4 @@ Mã gồm 5 chữ số là tháng và năm thành lập Đảng: **2/1930**, t�
 Game nằm gọn trong một file `index.html` (đã nhúng sẵn ảnh), tải về rồi mở bằng trình duyệt là chơi được.
 
 ## Nguồn ảnh
-*Power loom weaving*, tranh khắc của Thomas Allom (1835), phạm vi công cộng, lấy từ Wikimedia Commons.
+*Power loom weaving*, tranh khắc theo hình vẽ của Thomas Allom (1835). Ảnh số hóa: Wellcome Collection (L0011293), giấy phép [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), lấy từ [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Power_loom_weaving._Wellcome_L0011293.jpg).
